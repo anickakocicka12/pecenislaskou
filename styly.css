@@ -1,0 +1,127 @@
+
+body {
+    background-color: #fcf9f6; 
+    color: #4a2c2c; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #e0d7c3; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); 
+    background-color: #ffffff;
+}
+
+
+h1, h2, h3, h4 {
+    color: #e599a0; 
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: 700; 
+}
+
+h1 {
+    font-size: 2.8em;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5); 
+    padding-bottom: 10px;
+    border-bottom: 2px dashed #f5c4c7;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #9c6c6c;
+}
+
+h3 {
+    font-size: 1.1em;
+    text-align: justify;
+    padding: 0 15px;
+}
+
+a {
+    color: #7b4e3e; 
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+a:hover {
+    color: #e599a0; 
+    text-decoration: underline;
+}
+
+.recepty-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.recepty-list h4 {
+    font-size: 1.4em;
+    background-color: #fff9e6; 
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid #f5c4c7; 
+}
+
+.recepty-list a {
+    display: block;
+    padding: 5px 0;
+    font-weight: normal;
+}
+
+img {
+    display: block;
+    margin: 30px auto;
+    max-width: 90%;
+    height: auto;
+    border-radius: 15px;
+    border: 5px solid #fff3d8; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 95%;
+    }
+    h1 {
+        font-size: 2em;
+    }
+
+    .container {
+        margin: 20px;
+        padding: 10px;
+    }
+}
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    /* Pozadí navigace jako poleva */
+    background-color: #f7e0e2; 
+    border-bottom: 3px solid #e599a0;
+}
+
+nav a {
+    color: #4a2c2c;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #e599a0;
+    color: #ffffff;
+    text-decoration: none;
+}
